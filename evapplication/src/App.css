@@ -1,0 +1,114 @@
+html,
+body,
+:root,
+canvas {
+  background-color: #e9c46a;
+}
+
+.quiz {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: scroll;
+  background-color: #0D0D0D !important;
+  padding-bottom: 2em;
+}
+
+.temp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.buttonb {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+
+.pedal
+{
+  height: 100%;
+  width: 20%;
+}
+
+.pedal:active{
+  box-shadow: 10px 10px black;
+}
+
+.MuiAppBar-positionFixed {
+  position: relative !important;
+}
+
+.evimg{
+  margin: 3rem !important;
+  width: 500px;
+  height: 300px;
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.icon2{
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+}
+
+.marginTop{
+  margin-top: 5%;
+}
+
+@media (min-width: 768px)
+{
+  .paddingTop.jsx-2890992598 {
+    padding: 4rem 2rem 1rem 2rem;
+}}
+
+.paddingTop.jsx-2890992598 {
+    padding: 3rem 2em 0 2em;
+}
+.bg-theme-fill {
+    background-color: var(--color-fill);
+}
+
+.icon3{
+  width: 800px;
+  height: 450px;
+  margin-left: 150px;
+}
+
+.flexx{
+  display: flex;
+  flex-direction: row;
+}
+
+.background{
+  background-color: #454442;
+  border-radius: 3%;
+  padding: 2%;
+}
+
+.history_card{
+  background-color: #e9c46a;
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abs{
+  position: absolute;
+  bottom  : 20px;
+}
